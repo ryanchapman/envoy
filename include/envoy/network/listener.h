@@ -133,7 +133,7 @@ public:
  */
 struct UdpRecvData {
   Address::InstanceConstSharedPtr local_address_;
-  Address::InstanceConstSharedPtr peer_address_; // TODO(conquerAtapple): Fix ownership semantics.
+  Address::InstanceConstSharedPtr peer_address_;
   Buffer::InstancePtr buffer_;
   MonotonicTime receive_time_;
 
